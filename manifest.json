@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "chromium-regexp-restrictions-1309190",
+  "version": "0.1",
+  "description": "chromium-regexp-restrictions-1309190",
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "default_ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ],
+  "host_permissions": ["https://*/", "http://*/"],
+  "author": "Dave Justice",
+  "homepage_url": "https://bugs.chromium.org/p/chromium/issues/detail?id=1309190"
+}
